@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;1,400;1,600&display=swap');
+
+* {     
+    margin: 0;
+    padding: 0;
+    color: #cecece;    
+}
+
+body {
+    background-image: url("img/estacao-da-luz.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {    
+    padding: 10px 0;
+}
+header,
+footer {
+   background-color: rgba(43, 43, 43, 0.6);   
+}
+main {
+    width: 1280px;
+    margin: auto;
+}
+h1,
+h2 {  
+    font-family: 'Poppins', sans-serif;     
+}
+h1 {
+    color: #fff; 
+    font-size: 32px;
+    font-weight: 600;      
+
+}
+h2 {    
+    font-size: 28px;
+    font-weight: 400;
+    margin: 20px 0 10px 0;    
+}
+ul {
+   margin: 10px 0 20px 0;  
+}
+
+p,
+ul {
+    font-size: 16px;
+    line-height: 24px;
+    font-family: Montserrat, sans-serif;    
+}
+p {
+    
+    margin: 16px 0;      
+}
+strong {
+    color: #e61d2a;
+}
+iframe {
+    width: 1280px;
+    height: 720px;
+}
+.text-center {
+    text-align: center;
+}
+.icon-social {    
+    width: 48px;
+    height: 48px;
+    margin: 20px;
+}
